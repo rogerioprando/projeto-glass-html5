@@ -91,10 +91,8 @@ nav#menu ul{            /*nav#menu pois foi usado um id="menu"  */
     list-style: none;
     text-transform: uppercase;
     position: absolute;
-    top: -15px;
+    top: -20px;
     left: 300px;
-    font-family: "Segoe UI";
-    font-weight: bold;
 }
 
 nav#menu li{
@@ -125,5 +123,27 @@ nav#menu a{
 
 nav#menu a:hover{
     color: white;
+}
 
+section#corpo{
+    display: block;
+    width: 520px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 15px;
+}
+
+aside#lateral{
+    display: block;
+    width: 350px;
+    float: right;
+}
+
+footer#rodape{
+    clear: both;
+    border-top: 1px solid #606060
+}
+
+footer#rodape p{
+    text-align: center;
 }
